@@ -1,0 +1,20 @@
+{
+  "devicetype":"xinput",
+  "guid":"xinput_device_XIDevice",
+  "name":"XBox Controller 1",
+  "version":1,
+  "bindings":[
+    {
+      "control": "btn_r",
+      "action": "JATO_thruster"
+    },
+    {
+      "control": "thumblx",
+      "action": "steering_direction",
+      /*"deadzone": {
+        "begin": -0.1,
+        "end": 0.1
+      }*/
+    }
+  ]
+}

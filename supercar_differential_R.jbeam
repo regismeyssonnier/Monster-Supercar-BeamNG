@@ -1,0 +1,108 @@
+{
+  "differential_RS": {
+    "information": {
+      "name": "Engine",
+      "authors": "Régis Meyssonnier",
+      "value": 1000
+    },
+
+    "slotType": "differential_RS",
+
+    "slots": [
+      [ "type", "default", "description" ],
+      [ "driveshaft_R", "driveshaft_R", "driveshaft_R" ],
+      [ "halfshaft_R", "halfshaft_R", "halfshaft_R" ]
+    ],
+
+    "powertrain": [
+      [ "type", "name", "inputName", "inputIndex" ],
+      [
+        "differential",
+        "differential_R",
+        "driveshaft",
+        1,
+        {
+          "diffType": "open",
+          "gearRatio": 3.55,
+          "uiName": "Rear Differential",
+          "defaultVirtualInertia": 0.25
+        }
+      ]
+    ],
+    "differential_R": {
+      "diffType": "open",
+      "friction": 2.64,
+      "dynamicFriction": 0.00125,
+      "torqueLossCoef": 0.003
+    }
+
+
+
+  },
+
+  "driveshaft_R": {
+    "information": {
+      "name": "driveshaft_R",
+      "authors": "Régis Meyssonnier",
+      "value": 1000
+    },
+
+    "slotType": "driveshaft_R",
+
+    "powertrain": [
+      [ "type", "name", "inputName", "inputIndex" ],
+      [ "torsionReactor", "torsionReactor", "wheelaxleMR", 1 ],
+      [
+        "shaft",
+        "driveshaft",
+        "torsionReactor",
+        1,
+        {
+          "uiName": "Driveshaft",
+          "friction": 0.32,
+          "dynamicFriction": 0.0006,
+          "breakTriggerBeam": "driveshaft"
+        }
+
+      ]
+
+
+
+    ]
+
+
+  },
+
+  "halfshaft_R": {
+    "information": {
+      "name": "halfshaft_R",
+      "authors": "Régis Meyssonnier",
+      "value": 1000
+    },
+
+    "slotType": "halfshaft_R",
+
+    "powertrain": [
+      [ "type", "name", "inputName", "inputIndex" ],
+      [
+        "shaft",
+        "wheelaxleRL",
+        "differential_R",
+        1,
+        //{ "connectedWheel": "RL" }
+      ],
+      [
+        "shaft",
+        "wheelaxleRR",
+        "differential_R",
+        2,
+        //{ "connectedWheel": "RR" }
+      ]
+    ]
+
+  }
+
+
+
+
+}

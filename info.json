@@ -1,0 +1,13 @@
+{
+  "Name": "supercar",
+  "Brand": "RM",
+  "Author": "Régis Meyssonnier",
+  "Type": "Vehicle",
+  "default_pc": "default",
+  "default_color": "",
+  "colors": {
+    "Blue": "0 0 1 1",
+  }
+
+
+}

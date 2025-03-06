@@ -1,0 +1,26 @@
+{
+  "fuel_tank": {
+    "information": {
+      "name": "fuel_tank",
+      "authors": "Régis Meyssonnier",
+      "value": 1000
+    },
+
+    "slotType": "fuel_tank",
+
+    "energyStorage": [
+      [ "type", "name" ],
+      [ "fuelTank", "mainTank" ]
+    ],
+
+    "mainTank": {
+      "energyType": "gasoline",
+      "fuelCapacity": 63,
+      "startingFuelCapacity": 63
+    }
+
+
+
+  }
+
+}

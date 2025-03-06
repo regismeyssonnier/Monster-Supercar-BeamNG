@@ -1,0 +1,83 @@
+{
+  "guid":"{0CE6054C-0000-0000-0000-504944564944}",
+  "name":"Playstation 5 Controller",
+  "vendorName":"Sony",
+  "vidpid":"0CE6054C",
+  "bindings":[
+    {"control":"button0", "action":"shiftDown"},
+    {"control":"button1", "action":"accept"},
+    {"control":"button1", "action":"bigMapControllerSelect"},
+    {"control":"button1", "action":"menu_item_select"},
+    {"control":"button1", "action":"shiftUp"},
+    {"control":"button2", "action":"decline"},
+    {"control":"button2", "action":"menu_item_back"},
+    {"control":"button2", "action":"switch_camera_next"},
+    {"control":"button3", "action":"toggleBigMap"},
+    {"control":"button4", "action":"clutch"},
+    {"control":"button5", "action":"JATO_thruster"},//parkingbrake
+    {"control":"button8", "action":"toggleMenues"},
+    {"control":"button9", "action":"pause"},
+    {"control":"button11", "action":"center_camera"},
+    {"control":"button13", "action":"toggleMenues"},
+    {"control":"dpov", "action":"activateStarterMotor"},
+    {"control":"dpov", "action":"menu_item_down"},
+    {"control":"lpov", "action":"menu_item_left"},
+    {"control":"lpov", "action":"recover_vehicle"},
+    {"control":"rpov", "action":"menu_item_right"},
+    {"control":"rpov", "action":"reset_physics"},
+    {"control":"rxaxis", "action":"bigMapPreviousFilter"},
+    {
+      "control":"rxaxis", 
+      "action":"brake", 
+      "linearity":2,
+      "isForceEnabled":true,
+     },
+    {
+      "control":"ryaxis", 
+      "action":"accelerate", 
+      "linearity":2,
+      "isForceEnabled":true,
+    },
+    {"control":"ryaxis", "action":"bigMapNextFilter"},
+    {
+      "control":"rzaxis",
+      "action":"bigMapControllerZoom",
+      "deadzoneEnd":0.1,
+      "deadzoneResting":0.175,
+      "isInverted":true
+    },
+    {
+      "control":"rzaxis",
+      "action":"rotate_camera_vertical",
+      "deadzoneResting":0.1,
+      "isInverted":true
+    },
+    {"control":"upov", "action":"menu_item_up"},
+    {"control":"upov", "action":"toggle_slow_motion"},
+    {
+      "control": "xaxis",
+      "action": "steering_direction", //"bigMapMoveLeftRight",
+      "deadzoneEnd": 0.05,
+      "deadzoneResting": 0.1
+    },
+    {"control":"xaxis", "action":"menu_item_radial_x"},
+    {
+      "control":"xaxis",
+      "action":"steering",
+      "ffb":{"forceCoef":10, "lowspeedCoef":true, "smoothing":20},
+      "isForceEnabled":true,
+      "deadzoneResting":0.1,
+      "filterType":"1",
+      "linearity":1.3
+    },
+    {
+      "control":"yaxis",
+      "action":"bigMapMoveForwardBackward",
+      "deadzoneEnd":0.05,
+      "deadzoneResting":0.1,
+      "isInverted":true
+    },
+    {"control":"yaxis", "action":"menu_item_radial_y", "isInverted":true},
+    {"control":"zaxis", "action":"rotate_camera_horizontal", "deadzoneResting":0.1}
+  ]
+}

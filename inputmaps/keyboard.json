@@ -1,0 +1,56 @@
+{
+  "devicetype": "keyboard",
+  "guid": "{6F1D2B61-D5A0-11CF-BFC7-444553540000}",
+  "name": "Keyboard",
+  "version": 1,
+  "vidpid": "6F1D2B61",
+  "displayName": "Keyboard",
+  "bindings": [
+    {
+      "control": "pagedown",
+      "action": "JATO_thruster"
+    },
+    {
+      "control": "left",
+      "action": "steering_direction_l"
+    },
+    {
+      "control": "left",
+      "action": "steering_direction_lu"
+    },
+    {
+      "control": "right",
+      "action": "steering_direction_r"
+    },
+    {
+      "control": "right",
+      "action": "steering_direction_ru"
+    }
+    /*{
+      "control": "up",
+      "action": "steering_direction_u"
+    },
+    {
+      "control": "up",
+      "action": "accelerate"
+    },
+    {
+      "control": "up",
+      "action": "bigMapMoveForward"
+    },
+    {
+      "control": "down",
+      "action": "steering_direction_d"
+    },
+    {
+      "control": "down",
+      "action": "bigMapMoveBackward"
+    },
+    {
+      "control": "down",
+      "action": "brake"
+    }*/
+
+
+  ]
+}

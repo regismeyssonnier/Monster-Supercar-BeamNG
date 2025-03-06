@@ -1,0 +1,128 @@
+{
+  "middle_car": {
+    "information": {
+      "name": "Middle Car",
+      "authors": "Régis Meyssonnier",
+      "value": 1000
+    },
+
+    "slotType": "middle_car",
+
+    "flexbodies": [
+      [ "mesh", "[group]:", "nonFlexMaterials" ],
+      [
+        "Porte.001",
+        [ "middle_car_gr", "front_car_gr", "back_car_gr" ]
+      ]
+    ],
+
+    "nodes": [
+      [ "id", "posX", "posY", "posZ" ],
+      { "group": "middle_car_gr" },
+
+      { "nodeWeight": 7 },
+      { "nodeMaterial": "|NM_METAL" },
+      { "collision": true },
+      { "selfCollision": false },
+
+      [
+        "mc0",
+        1.0,
+        0.0,
+        0.5,
+        { "collision": false }
+      ],
+      [
+        "mc1",
+        1.0,
+        0.0,
+        0.5,
+        { "collision": false }
+      ],
+
+
+
+
+      { "group": "" }
+
+    ],
+
+
+    "beams": [
+      [ "id1:", "id2:" ],
+      {
+        "beamPrecompression": 1,
+        "beamType": "|NORMAL",
+        "beamLongBound": 1,
+        "beamShortBound": 1
+      },
+      { "beamSpring": 6000000 },
+      { "beamDamp": 0 },
+      { "beamDeform": 50000 },
+      { "beamStrength": 2200000 },
+      { "dampCutoffHz": 25500 },
+      //{ "deformLimitExpansion": 1.1 },
+      //{ "deformGroup": "front_car_deform" },
+
+      [ "fc16", "bc14" ],
+      [ "fc16", "bc22" ],
+      [ "fc56", "bc14" ],
+      [ "fc56", "bc22" ],
+
+      [ "fc20", "bc10" ],
+      [ "fc20", "bc25" ],
+      [ "fc68", "bc10" ],
+      [ "fc68", "bc25" ],
+
+      [ "fc16", "mc0" ],
+      [ "fc56", "mc0" ],
+      [ "bc14", "mc0" ],
+      [ "bc22", "mc0" ],
+
+      [ "fc20", "mc0" ],
+      [ "fc68", "mc0" ],
+      [ "bc10", "mc0" ],
+      [ "bc25", "mc0" ],
+
+      [ "fc16", "mc1" ],
+      [ "fc56", "mc1" ],
+      [ "bc14", "mc1" ],
+      [ "bc22", "mc1" ],
+
+      [ "fc20", "mc1" ],
+      [ "fc68", "mc1" ],
+      [ "bc10", "mc1" ],
+      [ "bc25", "mc1" ]
+
+
+    ],
+
+
+
+    "triangles": [
+      [ "id1:", "id2:", "id3:" ],
+
+      //{"selfCollision": true},
+      { "dragCoef": 10 },
+      { "liftCoef": -2.0 },
+
+      [ "bc14", "fc16", "fc56" ],
+      [ "bc14", "fc56", "bc22" ],
+
+      [ "fc20", "bc10", "bc25" ],
+      [ "fc20", "bc25", "fc68" ]
+
+
+    ]
+
+
+
+
+
+
+  }
+
+
+
+}
+

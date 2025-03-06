@@ -1,0 +1,64 @@
+{
+  "display_steering_input": {
+    "order": 1,
+    "onChange": "custom_input.display_message()",
+    "title": "Display steering_car"
+
+  },
+  "steering_direction": {
+    "order": 2,
+    "onChange": "custom_input.set_steering(VALUE)",
+    "title": "Set steering_car",
+    "isCentered": true
+
+  },
+
+  "JATO_thruster": {
+    "order": 3,
+    "onUp": "custom_input.set_THRUSTER()",
+    "title": "Set JATO Thruster"
+
+  },
+  "steering_direction_l": {
+    "order": 4,
+    "onDown": "custom_input.set_steering(-1)",
+    "title": "Set steering_car"
+
+  },
+  "steering_direction_r": {
+    "order": 5,
+    "onDown": "custom_input.set_steering(1)",
+    "title": "Set steering_car"
+
+
+  },
+
+  "steering_direction_u": {
+    "order": 6,
+    "onDown": "custom_input.set_steering_and_move(0)",
+    "title": "Set steering_car"
+  },
+  "steering_direction_d": {
+    "order": 7,
+    "onDown": "custom_input.set_steering_and_brake(0)",
+    "title": "Set steering_car"
+
+  },
+
+  "steering_direction_lu": {
+    "order": 8,
+    "onUp": "custom_input.set_steering(0)",
+    "title": "Set steering_car"
+
+  },
+  "steering_direction_ru": {
+    "order": 9,
+    "onUp": "custom_input.set_steering(0)",
+    "title": "Set steering_car"
+
+
+  }
+
+
+
+}

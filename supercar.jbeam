@@ -1,0 +1,126 @@
+{
+  "supercar": {
+    "information": {
+      "name": "supercar",
+      "authors": "Régis Meyssonnier",
+      "value": 1000
+    },
+
+    "slotType": "main",
+
+    "slots": [
+      [ "type", "default", "description" ],
+      [ "front_car", "front_car", "Front Car" ],
+      [ "chassis", "chassis", "Chassis Car" ],
+      [ "suspension", "suspension", "Suspension Car" ],
+      [ "engine_supercar", "engine_supercar", "engine Car" ],
+      [ "fuel_tank", "fuel_tank", "fuel tank Car" ],
+      [ "back_car", "back_car", "back_car" ],
+      [ "spoiler", "spoiler", "spoiler" ],
+      [ "middle_car", "middle_car", "middle_car" ]
+
+    ],
+
+    "variables": [
+      [ "name", "type", "unit", "category", "default", "min", "max", "title", "description" ],
+      [ "$camera_dist", "range", "m", "Camera", 9.5, 0, 30, "Camera distance", "Relative to Camera" ],
+      [ "$fire", "range", "Bool", "Fire", 1, 0, 1, "Fire JATO", "Relative to JATO" ]
+    ],
+
+
+    "controller": [
+      [ "fileName" ],
+      [
+        "vehicleController",
+        {}
+      ],
+      [
+        "custom_input",
+        { "fire": "$fire" }
+      ]
+    ],
+
+
+    "cameraExternal": {
+      "distance": "$camera_dist",
+      "distanceMin": "$=$camera_dist-1",
+      "offset": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.9
+      },
+      "fov": 65
+    },
+
+    "cameraChase": {
+      "distance": "$camera_dist",
+      "distanceMin": "$=$camera_dist-1",
+      "defaultRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "offset": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 2.00
+      },
+      "fov": 65
+    },
+
+    "camerasInternal": [
+      [ "type", "x", "y", "z", "fov", "id1:", "id2:", "id3:", "id4:", "id5:", "id6:" ],
+      { "nodeWeight": 1.24 },
+      { "selfCollision": false },
+      { "rightHandCamera": true },
+      { "collision": false },
+      {
+        "beamSpring": 46000,
+        "beamDamp": 435
+      },
+      { "selfCollision": true },
+      { "collision": true },
+      [
+        //dash cam
+        "driver",
+        0.800,
+        -0.404,
+        1.36,
+        55,
+        "ch7",
+        "ch12",
+        "ch16",
+        "ch13",
+        "ch02",
+        "ch29",
+        {
+          "beamDeform": 5001000,
+          "beamStrength": "FLT_MAX"
+        }
+      ]
+    ],
+
+
+
+
+
+    "refNodes": [
+      [ "ref:", "left:", "back:", "up:", "leftCorner:", "rightCorner:" ],
+      //[ "ch4", "ch27", "ch9", "ch93" ],
+      [ "ch4", "ch2", "ch27", "ch93", "ch61", "ch62" ]
+    ]
+
+    /*"flexbodies": [
+      [ "mesh", "[group]:", "nonFlexMaterials" ],
+      ["car_one_body",[ "body" ]]
+    ],*/
+
+
+
+
+  },
+
+
+
+
+}

@@ -1,0 +1,1037 @@
+{
+  "MaterialAutoButt_001": {
+    "name": "MaterialAutoButt_001",
+    "mapTo": "MaterialAutoButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/autobutt.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialBack_001": {
+    "name": "MaterialBack_001",
+    "mapTo": "MaterialBack.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/back.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialBlancEmit_001": {
+    "name": "MaterialBlancEmit_001",
+    "mapTo": "MaterialBlancEmit.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialCarbon_001": {
+    "name": "MaterialCarbon_001",
+    "mapTo": "MaterialCarbon.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/4K-carbon_fiber-diffuse.color.png",
+        "ambientOcclusionMap": "/vehicles/supercar/4K-carbon_fiber-ao.data.png",
+        "normalMap": "/vehicles/supercar/4K-carbon_fiber-normal.normal.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialCompteur_001": {
+    "name": "MaterialCompteur_001",
+    "mapTo": "MaterialCompteur.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/compteur2.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialDownButt_001": {
+    "name": "MaterialDownButt_001",
+    "mapTo": "MaterialDownButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/blarrow.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialEngineButt_001": {
+    "name": "MaterialEngineButt_001",
+    "mapTo": "MaterialEngineButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/engine.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialFabNoir_001": {
+    "name": "MaterialFabNoir_001",
+    "mapTo": "MaterialFabNoir.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/Fabric042_1K-JPG_Color.color.png",
+        "ambientOcclusionMap": "/vehicles/supercar/Fabric042_1K-JPG_AmbientOcclusion.data.png",
+        "normalMap": "/vehicles/supercar/Fabric042_1K-JPG_NormalDX.normal.png",
+        "roughnessMap": "/vehicles/supercar/Fabric042_1K-JPG_Roughness.data.png"
+
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialKmhButt_001": {
+    "name": "MaterialKmhButt_001",
+    "mapTo": "MaterialKmhButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/kmhbutt.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialLeftButt_001": {
+    "name": "MaterialLeftButt_001",
+    "mapTo": "MaterialLeftButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/blarrow.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialNoirMet_001": {
+    "name": "MaterialNoirMet_001",
+    "mapTo": "MaterialNoirMet.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialNoir_001": {
+    "name": "MaterialNoir_001",
+    "mapTo": "MaterialNoir.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialOKButt_001": {
+    "name": "MaterialOKButt_001",
+    "mapTo": "MaterialOKButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/okbl.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialOrange_001": {
+    "name": "MaterialOrange_001",
+    "mapTo": "MaterialOrange.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.801001012,
+          0.295186013,
+          0.0151869999,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialPhareInt_001": {
+    "name": "MaterialPhareInt_001",
+    "mapTo": "MaterialPhareInt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialPhareRouge_001": {
+    "name": "MaterialPhareRouge_001",
+    "mapTo": "MaterialPhareRouge.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialPhare_001": {
+    "name": "MaterialPhare_001",
+    "mapTo": "MaterialPhare.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialPneu_002": {
+    "name": "MaterialPneu_002",
+    "mapTo": "MaterialPneu.002",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialPneu_005": {
+    "name": "MaterialPneu_005",
+    "mapTo": "MaterialPneu.005",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialPneu_006": {
+    "name": "MaterialPneu_006",
+    "mapTo": "MaterialPneu.006",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialPneu_008": {
+    "name": "MaterialPneu_008",
+    "mapTo": "MaterialPneu.008",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRightButt_001": {
+    "name": "MaterialRightButt_001",
+    "mapTo": "MaterialRightButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/blarrow.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRimFrein_002": {
+    "name": "MaterialRimFrein_002",
+    "mapTo": "MaterialRimFrein.002",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.399439991,
+          0.399439991,
+          0.399439991,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRimFrein_005": {
+    "name": "MaterialRimFrein_005",
+    "mapTo": "MaterialRimFrein.005",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.399439991,
+          0.399439991,
+          0.399439991,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRimFrein_006": {
+    "name": "MaterialRimFrein_006",
+    "mapTo": "MaterialRimFrein.006",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.399439991,
+          0.399439991,
+          0.399439991,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRimFrein_008": {
+    "name": "MaterialRimFrein_008",
+    "mapTo": "MaterialRimFrein.008",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.399439991,
+          0.399439991,
+          0.399439991,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRim_002": {
+    "name": "MaterialRim_002",
+    "mapTo": "MaterialRim.002",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRim_005": {
+    "name": "MaterialRim_005",
+    "mapTo": "MaterialRim.005",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRim_006": {
+    "name": "MaterialRim_006",
+    "mapTo": "MaterialRim.006",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRim_008": {
+    "name": "MaterialRim_008",
+    "mapTo": "MaterialRim.008",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialRouge_001": {
+    "name": "MaterialRouge_001",
+    "mapTo": "MaterialRouge.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800228,
+          0,
+          0.00700099999,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialSOUND_001": {
+    "name": "MaterialSOUND_001",
+    "mapTo": "MaterialSOUND.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/sound.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialSeatCoteHaut_001": {
+    "name": "MaterialSeatCoteHaut_001",
+    "mapTo": "MaterialSeatCoteHaut.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialSeatCote_001": {
+    "name": "MaterialSeatCote_001",
+    "mapTo": "MaterialSeatCote.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialSeatHaut_001": {
+    "name": "MaterialSeatHaut_001",
+    "mapTo": "MaterialSeatHaut.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialSeat_001": {
+    "name": "MaterialSeat_001",
+    "mapTo": "MaterialSeat.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialSpeedbutt_001": {
+    "name": "MaterialSpeedbutt_001",
+    "mapTo": "MaterialSpeedbutt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/speedbutt.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialTminButt_001": {
+    "name": "MaterialTminButt_001",
+    "mapTo": "MaterialTminButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/trpminbutt.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialUpButt_001": {
+    "name": "MaterialUpButt_001",
+    "mapTo": "MaterialUpButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/blarrow.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialVitre_001": {
+    "name": "MaterialVitre_001",
+    "mapTo": "MaterialVitre.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialWarning_001": {
+    "name": "MaterialWarning_001",
+    "mapTo": "MaterialWarning.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/warning.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialWood_001": {
+    "name": "MaterialWood_001",
+    "mapTo": "MaterialWood.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/Wood058_1K-JPG_Color.color.png",
+        "normalMap": "/vehicles/supercar/Wood058_1K-JPG_NormalDX.normal.png",
+        "roughnessMap": "/vehicles/supercar/Wood058_1K-JPG_Roughness.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Material_002": {
+    "name": "Material_002",
+    "mapTo": "Material.002",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0.0134300003,
+          0.80063802,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Material_005": {
+    "name": "Material_005",
+    "mapTo": "Material.005",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0.0134300003,
+          0.80063802,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Material_006": {
+    "name": "Material_006",
+    "mapTo": "Material.006",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0.0134300003,
+          0.80063802,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Material_008": {
+    "name": "Material_008",
+    "mapTo": "Material.008",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0.0134300003,
+          0.80063802,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Material_Chrome_001": {
+    "name": "Material_Chrome_001",
+    "mapTo": "Material_Chrome.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialcarrosserieBlc_001": {
+    "name": "MaterialcarrosserieBlc_001",
+    "mapTo": "MaterialcarrosserieBlc.001",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0802190006,
+          0.341919988,
+          0.991111994,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "MaterialpSButt_001": {
+    "name": "MaterialpSButt_001",
+    "mapTo": "MaterialpSButt.001",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/vehicles/supercar/psbutt.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  }
+}

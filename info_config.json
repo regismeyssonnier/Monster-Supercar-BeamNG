@@ -1,0 +1,31 @@
+{
+  "0-100 km/h":0.9,
+  "0-100 mph":4.7,
+  "0-60 mph":0.9,
+  "60-100 mph":3.8,
+  "BoundingBox":[
+    [
+      -2.079,
+      -1.748,
+      -0.354
+    ],
+    [
+      2.87,
+      0.668,
+      1.496
+    ]
+  ],
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":2,
+  "Power":8662,
+  "PowerPeakRPM":9750,
+  "Propulsion":"ICE",
+  "Top Speed":45.70007303,
+  "Torque":7890,
+  "TorquePeakRPM":"3600 - 4850",
+  "Transmission":"Manual",
+  "Weight":1960,
+  "Weight/Power":0.2262756869
+}
